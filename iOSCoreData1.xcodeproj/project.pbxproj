@@ -16,6 +16,8 @@
 		15BA210626D499FB00321177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BA210426D499FB00321177 /* LaunchScreen.storyboard */; };
 		15BA211126D499FC00321177 /* iOSCoreData1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA211026D499FC00321177 /* iOSCoreData1Tests.swift */; };
 		15BA211C26D499FC00321177 /* iOSCoreData1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA211B26D499FC00321177 /* iOSCoreData1UITests.swift */; };
+		15BA212B26D49E3100321177 /* Details.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA212A26D49E3100321177 /* Details.swift */; };
+		15BA212E26D49E5000321177 /* StudentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BA212D26D49E5000321177 /* StudentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		15BA211726D499FC00321177 /* iOSCoreData1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCoreData1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		15BA211B26D499FC00321177 /* iOSCoreData1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCoreData1UITests.swift; sourceTree = "<group>"; };
 		15BA211D26D499FC00321177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15BA212A26D49E3100321177 /* Details.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Details.swift; sourceTree = "<group>"; };
+		15BA212D26D49E5000321177 /* StudentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,9 +105,10 @@
 		15BA20F526D499F600321177 /* iOSCoreData1 */ = {
 			isa = PBXGroup;
 			children = (
+				15BA212C26D49E3800321177 /* cells */,
+				15BA212926D49E0B00321177 /* screens */,
 				15BA20F626D499F600321177 /* AppDelegate.swift */,
 				15BA20F826D499F600321177 /* SceneDelegate.swift */,
-				15BA20FA26D499F600321177 /* ContentView.swift */,
 				15BA20FF26D499FB00321177 /* Assets.xcassets */,
 				15BA210426D499FB00321177 /* LaunchScreen.storyboard */,
 				15BA210726D499FB00321177 /* Info.plist */,
@@ -137,6 +142,23 @@
 				15BA211D26D499FC00321177 /* Info.plist */,
 			);
 			path = iOSCoreData1UITests;
+			sourceTree = "<group>";
+		};
+		15BA212926D49E0B00321177 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				15BA20FA26D499F600321177 /* ContentView.swift */,
+				15BA212A26D49E3100321177 /* Details.swift */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		15BA212C26D49E3800321177 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				15BA212D26D49E5000321177 /* StudentCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,7 +292,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				15BA20FE26D499F600321177 /* iOSCoreData1.xcdatamodeld in Sources */,
+				15BA212B26D49E3100321177 /* Details.swift in Sources */,
 				15BA20F726D499F600321177 /* AppDelegate.swift in Sources */,
+				15BA212E26D49E5000321177 /* StudentCell.swift in Sources */,
 				15BA20F926D499F600321177 /* SceneDelegate.swift in Sources */,
 				15BA20FB26D499F600321177 /* ContentView.swift in Sources */,
 			);
